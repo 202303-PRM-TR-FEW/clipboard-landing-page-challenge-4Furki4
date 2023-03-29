@@ -158,6 +158,43 @@ p {
     width: 7.5rem;
 }
 
+.footer {
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    background-color: #f5f6f8;
+}
+
+.footer #copyright {
+    width: 2.5rem;
+}
+
+.footer__text-list {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer__icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer__icon-list img {
+    width: 25px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--neutral-grayish-blue);
+}
 
 .attribution {
     font-size: 11px;

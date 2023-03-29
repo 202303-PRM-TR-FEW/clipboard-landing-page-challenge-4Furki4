@@ -182,10 +182,6 @@ p {
     gap: 2rem;
 }
 
-.footer__icon-list img {
-    width: 25px;
-}
-
 ul {
     padding-left: 0;
     list-style: none;
@@ -194,6 +190,14 @@ ul {
 a {
     text-decoration: none;
     color: var(--neutral-grayish-blue);
+}
+
+a:is(:hover, :active) {
+    color: var(--primary-strong-cyan);
+}
+
+.footer__icon-list a:is(:hover, :active) .footer__svg {
+    fill: var(--primary-strong-cyan);
 }
 
 .attribution {

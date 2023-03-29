@@ -142,7 +142,19 @@ p {
     margin-bottom: .5rem;
 }
 
+.brands {
+    margin: 7.5rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
 
+.brands>img {
+    width: 7.5rem;
+}
 
 .attribution {
     font-size: 11px;
@@ -220,6 +232,10 @@ p {
 
     .supercharge__preview {
         grid-area: preview;
+    }
+
+    .brands {
+        flex-direction: row;
     }
 }
 

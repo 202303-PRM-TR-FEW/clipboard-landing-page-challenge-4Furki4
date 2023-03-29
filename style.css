@@ -92,6 +92,22 @@ p {
     width: 85%;
 }
 
+.track {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.track__header {}
+
+.track__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.track__image {}
+
 .attribution {
     font-size: 11px;
     text-align: center;

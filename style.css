@@ -93,12 +93,15 @@ p {
 }
 
 .track {
+    margin: 5rem 0rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.track__header {}
+.track__header {
+    margin-bottom: 2.5rem;
+}
 
 .track__body {
     display: flex;
@@ -106,7 +109,10 @@ p {
     gap: 2rem;
 }
 
-.track__image {}
+.track__image {
+    width: 80%;
+    margin-inline: auto;
+}
 
 .attribution {
     font-size: 11px;
@@ -123,15 +129,62 @@ p {
         justify-content: center;
     }
 
+
     .header__body p {
         width: 50%;
         margin-inline: auto;
     }
+
+    .track__body {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .track__content {
+        text-align: start;
+        padding: 0rem;
+    }
+
+    .track__image {
+        flex-basis: 100%;
+        margin-left: -2rem;
+    }
+
+    .track__image img {
+        width: auto;
+        height: auto;
+    }
+
+    .track__content>div {
+        width: 75%;
+    }
+
+    .track__content>div+div {
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (min-width: 70rem) {
+
+    .track__header,
     .header__body p {
         width: 40%;
         margin-inline: auto;
+    }
+
+    .track__body {
+        gap: 5rem;
+    }
+
+    .track__content {
+        padding: 2rem;
+    }
+
+    .track__content>div {
+        width: 50%;
+    }
+
+    .track__image {
+        flex-basis: 75%;
     }
 }

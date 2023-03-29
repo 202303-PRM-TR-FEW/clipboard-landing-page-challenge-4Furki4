@@ -114,6 +114,14 @@ p {
     margin-inline: auto;
 }
 
+.access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 4rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -129,8 +137,8 @@ p {
         justify-content: center;
     }
 
-
-    .header__body p {
+    .header__body p,
+    .access__body {
         width: 50%;
         margin-inline: auto;
     }
@@ -167,7 +175,8 @@ p {
 @media screen and (min-width: 70rem) {
 
     .track__header,
-    .header__body p {
+    .header__body p,
+    .access__body {
         width: 40%;
         margin-inline: auto;
     }

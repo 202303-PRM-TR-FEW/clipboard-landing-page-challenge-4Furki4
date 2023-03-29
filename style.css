@@ -122,6 +122,27 @@ p {
     gap: 4rem;
 }
 
+.supercharge,
+.supercharge__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.supercharge {
+    gap: 4rem;
+}
+
+.supercharge__body {
+    gap: 2rem;
+}
+
+.supercharge__icon {
+    width: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;

@@ -148,6 +148,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 
@@ -231,6 +232,10 @@ p {
 
     .supercharge__preview {
         grid-area: preview;
+    }
+
+    .brands {
+        flex-direction: row;
     }
 }
 
